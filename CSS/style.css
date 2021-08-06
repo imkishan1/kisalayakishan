@@ -768,4 +768,8 @@ footer .container .social-media-icons li a i {
         height: 85vh;
 
     }
+    .recaptcha {
+        width: 300px;
+        /* border: 1px solid red; */
+    }
 }
