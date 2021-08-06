@@ -594,7 +594,6 @@ footer .container .social-media-icons li a i {
 /* Form */
 
 .input-user{
-    /* outline: none; */
     border: 2px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
     border-radius: 5px;
@@ -602,7 +601,7 @@ footer .container .social-media-icons li a i {
     width: 100%;
     background-color: rgba(248, 248, 248, 0.4);
     box-sizing: border-box;
-    /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.219); */
+    
 }
 
 .textarea{
@@ -612,7 +611,6 @@ footer .container .social-media-icons li a i {
     border-radius: 5px;
     outline: none;
     max-height: 200px;
-    /* max-height: 500px; */
     resize: none;
     border: 2px solid rgba(0, 0, 0, 0.1);
 }
@@ -623,7 +621,6 @@ footer .container .social-media-icons li a i {
     font-size: 16px !important;
     color: #407BFF !important;
     border: 2px solid #407cff86 !important;
-    /* color:rgba(59, 5, 255, 0.7) !important ; */
     background-color:#407cff41  !important;
     transition: 0.3s all ease-in-out;
     margin-top: 10px;
