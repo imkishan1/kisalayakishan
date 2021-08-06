@@ -1,28 +1,8 @@
-// const data = {
-//     labels: [
-//       'SQL',
-//       'Bootstrap',
-//       'Java Script',
-//       'HTML'
-//     ],
-//     datasets: [{
-//       label: 'My First Dataset',
-//       data: [30, 50,66,85],
-//       backgroundColor: [
-//         'rgb(255, 99, 132)',
-//         'rgb(54, 162, 235)',
-//         'rgb(255, 205, 86)',
-//         'rgb(255, 165, 0)'
-//       ],
-//       hoverOffset: 4
-//     }]
-//   }
 
-// var ctx = document.getElementById('myChart');
-// var myChart = new Chart(ctx, {
-//     type: 'doughnut',
-//     data: data,
-// });
+AOS.init({
+  anchorPlacement: 'top-left',
+  duration: 500
+});
 document.getElementById('email').addEventListener('blur',validateEmail)
 function validateEmail(){
     const email = document.getElementById('email');
@@ -37,10 +17,7 @@ function validateEmail(){
         email.classList.remove('is-invalid')
     }
 }
-AOS.init({
-    anchorPlacement: 'top-left',
-    duration: 500
-  });
+
 
 var currage = document.getElementById('currage');
 var date = new Date();
