@@ -746,7 +746,7 @@ footer .container .social-media-icons li a i {
         display: none;
     }
     .main-bg-layer .profile-banner{
-        height: 90vh;
+        height: 100vh;
         margin-top: 15px;
     }
     .main-bg-layer .about-info{
@@ -758,4 +758,14 @@ footer .container .social-media-icons li a i {
         padding:0px 20px 0 20px !important;
     }
 
+}
+
+@media only screen and (max-width: 370px){
+    .main-bg-layer{
+        margin-top: 20px;
+    }
+    .main-bg-layer .profile-banner{
+        height: 85vh;
+
+    }
 }
