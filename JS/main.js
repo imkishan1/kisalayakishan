@@ -23,7 +23,7 @@ var currage = document.getElementById('currage');
 var date = new Date();
 var year = parseInt(date.getFullYear());
 var month= date.getMonth();
-console.log(month);
+
 if(month>=4)
 {
     var age = (year-2000).toString();
