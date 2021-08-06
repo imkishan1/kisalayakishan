@@ -626,6 +626,7 @@ footer .container .social-media-icons li a i {
     /* color:rgba(59, 5, 255, 0.7) !important ; */
     background-color:#407cff41  !important;
     transition: 0.3s all ease-in-out;
+    margin-top: 10px;
 }
 .submit:hover{
     background-color:#3470f359 !important;
