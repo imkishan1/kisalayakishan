@@ -568,31 +568,45 @@ footer .container .social-media-icons li a i {
 }
 
 /* Form */
-
+form{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 400px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
 .input-user {
+  width: 70%;
+  font-size: 14px;
+  margin-bottom: 16px;
   border: 2px solid rgba(0, 0, 0, 0.1);
   padding: 8px;
   border-radius: 5px;
   outline: none;
-  width: 100%;
+  /* width: 100%; */
   background-color: rgba(248, 248, 248, 0.4);
   box-sizing: border-box;
 }
 
 .textarea {
-  width: 100%;
+  font-size: 14px;
+  width: 70%;
   background-color: rgba(248, 248, 248, 0.4);
   padding: 8px;
   border-radius: 5px;
   outline: none;
   max-height: 200px;
   resize: none;
+  margin-bottom: 16px;
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .submit {
+ 
   outline: none;
-  width: 100%;
+  width: 70%;
+  box-sizing: border-box;
   font-size: 16px !important;
   color: #407bff !important;
   border: 2px solid #407cff86 !important;
@@ -600,6 +614,7 @@ footer .container .social-media-icons li a i {
   transition: 0.3s all ease-in-out;
   margin-top: 10px;
 }
+
 .submit:hover {
   background-color: #3470f359 !important;
 }
@@ -674,6 +689,16 @@ footer .container .social-media-icons li a i {
   }
   .hastags {
     margin-bottom: 10px;
+  }
+  .input-user {
+    width: 100%;
+  }
+  .textarea {
+    width: 100%;
+  }
+  
+  .submit {
+    width: 100%;
   }
 }
 
