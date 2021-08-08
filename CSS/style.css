@@ -179,15 +179,18 @@ header nav .container .social-media-list .nav-items a i {
 .per-info .button {
   outline: none;
   border: none;
-  padding: 10px 35px;
+  padding: 10px 24px;
   position: relative;
   /* width: 120px; */
   display: flex;
   justify-content: center;
+
   /* align-items: center; */
-  background-color: var(--background);
+  /* background-color: var(--background); */
+  background:linear-gradient(to right,rgb(136, 60, 168),rgb(75, 98, 190)) ;
   border-radius: 50px 50px;
-  color: var(--Text-color);
+  color: var(--background);
+  /* color: var(--Text-color); */
   -webkit-user-drag: none;
   -webkit-user-select: none;
   transition: 0.1s all ease-in;
