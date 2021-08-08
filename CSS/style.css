@@ -608,15 +608,22 @@ form{
   width: 70%;
   box-sizing: border-box;
   font-size: 16px !important;
-  color: #407bff !important;
+  /* color: #407bff !important;
   border: 2px solid #407cff86 !important;
   background-color: #407cff41 !important;
+  transition: 0.3s all ease-in-out;
+  margin-top: 12px; */
+
+  color: #ffffff !important;
+  border: 2px solid #0a49d24d !important;
+  background-color: #407cff !important;
   transition: 0.3s all ease-in-out;
   margin-top: 12px;
 }
 
 .submit:hover {
-  background-color: #3470f359 !important;
+  /* background-color: #3470f359 !important; */
+  background-color: #2263ee !important;
 }
 .contact-svg {
   max-width: 350px;
