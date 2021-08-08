@@ -179,9 +179,9 @@ header nav .container .social-media-list .nav-items a i {
 .per-info .button {
   outline: none;
   border: none;
-  padding: 10px;
+  padding: 10px 35px;
   position: relative;
-  width: 150px;
+  /* width: 120px; */
   display: flex;
   justify-content: center;
   /* align-items: center; */
