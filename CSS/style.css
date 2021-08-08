@@ -761,7 +761,7 @@ form{
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 448px) {
   .main-bg-layer {
     margin-top: 20px;
   }
