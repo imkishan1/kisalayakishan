@@ -593,7 +593,9 @@ form{
   background-color: rgba(248, 248, 248, 0.4);
   box-sizing: border-box;
 }
-
+::-webkit-input-placeholder{
+  
+}
 .textarea {
   font-size: 14px;
   width: 70%;
