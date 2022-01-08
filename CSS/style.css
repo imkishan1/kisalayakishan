@@ -720,6 +720,7 @@ form{
   }
 }
 
+
 @media only screen and (max-width: 768px) {
   .timeline-item:nth-child(odd) {
     padding-right: 0;
@@ -749,7 +750,9 @@ form{
     margin-bottom: 5px;
     /* font-size: 12px; */
   }
+
 }
+
 @media only screen and (max-width: 500px) {
   /* nav {
     display: none;
@@ -765,6 +768,10 @@ form{
   .lr-pd {
     padding: 0px 20px 0 20px !important;
   }
+  /* .container {
+    width: 98% !important;
+    margin: 0 auto;
+  } */
 }
 
 @media only screen and (max-width: 448px) {
