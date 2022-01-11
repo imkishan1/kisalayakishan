@@ -24,7 +24,7 @@ var date = new Date();
 var year = parseInt(date.getFullYear());
 var month= date.getMonth();
 
-if(month>=4)
+if(month>3)
 {
     var age = (year-2000).toString();
 }
@@ -33,6 +33,16 @@ else{
 }
 currage.innerText = age;
 
+// function calculateDob(mydob)
+// {
+//   var diff = Date.now() - mydob.getTime();
+//   var age_dt = new Date(diff); 
+//   console.log(age_dt);
+//   console.log(mydob.getTime())
+//   return Math.abs(age_dt.getUTCFullYear() - 1970);
+// }
+// console.log(calculateDob(new Date(2000, 1, 1)))
+// currage.innerText = calculateDob(new Date(2000, 1, 1));
 
 function encode(data) {
     return Object.keys(data)
