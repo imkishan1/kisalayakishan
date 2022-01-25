@@ -200,9 +200,17 @@ header nav .container .social-media-list .nav-items a i {
   transition: 0.1s all ease-in;
 }
 .per-info .button a {
+  width: 100%;
+  /* border: 1px solid red; */
   text-decoration: none;
   color: inherit;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 
 .per-info .button:hover.button {
   transform: translateY(-2px);
