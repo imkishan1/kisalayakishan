@@ -549,6 +549,12 @@ footer .container .social-media-icons li a i {
 .source-code:hover {
   background-color: rgba(102, 65, 235, 0.3) !important;
 }
+
+.source-code i {
+  margin-top: 0px;
+  transform: translateY(3px);
+  font-size: 20px;
+}
 .timeline-item:nth-child(even) .project-card .content .hastag {
   /* padding-left: 0; */
   justify-content: flex-start;
@@ -588,6 +594,12 @@ footer .container .social-media-icons li a i {
   margin-bottom: 0px !important;
   font-size: 14px !important;
 }
+
+/* .project-card .content p {
+  max-width: 150px !important;
+  word-wrap: break-word;
+  
+} */
 
 /* Form */
 form{
