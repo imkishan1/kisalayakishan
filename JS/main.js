@@ -23,13 +23,16 @@ var currage = document.getElementById('currage');
 var date = new Date();
 var year = parseInt(date.getFullYear());
 var month= date.getMonth();
+console.log(date)
 
-if(month>3)
+if((month+1)>3)
 {
-    var age = (year-2000).toString();
+  var age = (year-2000).toString();
+  console.log(age)
 }
 else{
     var age = ((year-1)-2000).toString();
+    console.log("age in here: ",age)
 }
 currage.innerText = age;
 
