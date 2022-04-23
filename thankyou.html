@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Thank you</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #1a0f0f;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* font-family: 'Dancing Script', cursive;  */
+            font-family: "Poppins", sans-serif;
+        }
+        .thankyou{
+            max-width: 500px;
+            min-height: 350px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            color: #292729;
+            /* color:rgba(113, 127, 183,1); */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 50px rgba(0,0,0,0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(249, 244, 244);
+            margin: 0px 20px;
+        }
+        .thankyou h1{
+            /* font-size: 72px;
+            font-size: 5vw; */
+            font-size: 4rem;
+            font-weight: 700;
+            text-overflow: clip;
+            line-break: loose;
+            /* line-height: 4rem; */
+            /* margin-bottom: 16px; */
+            word-wrap: break-word;
+        }
+        .tick{
+            font-size: 4.5rem;
+        }
+        a{
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 4px;
+            background-color: #292729;
+            color: #fff;  
+            margin-top: 16px;
+            transition: 0.3s all ease-in-out;
+        }
+        a:hover{
+            transform: translateY(-2px);
+        }
+        p{
+            /* font-size: 40px;
+            font-size: 1.5vw; */
+            text-transform: capitalize;
+        }
+        @media screen and (max-width:450px) {
+
+            .thankyou h1{
+
+            line-height: 4rem;
+            margin-bottom: 16px;
+   
+        }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="thankyou">
+        <i class='bx bx-check-circle tick'></i>
+        <h1>Thank you!</h1>
+        <p>Your response has been received successfully!</p>
+        <a href="index.html">Take me Home</a>
+    </div>
+</body>
+</html>

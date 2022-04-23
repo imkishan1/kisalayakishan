@@ -410,7 +410,8 @@ footer .container .social-media-icons li a i {
   padding-left: calc(50% + 30px);
 }
 .timeline-item:nth-child(even) .timeline-content {
-  background-color: rgb(111, 90, 120);
+  background-color: rgba(111, 90, 120,0.2);
+  color: rgba(111, 90, 120,1);
 }
 .timeline-item:nth-child(odd) .timeline-dot {
   background-color: rgb(113, 127, 183);
@@ -419,7 +420,8 @@ footer .container .social-media-icons li a i {
   color: rgb(113, 127, 183);
 }
 .timeline-item .timeline-content {
-  background-color: rgb(113, 127, 183);
+  background-color: rgba(113, 127, 183,0.2);
+  color:  rgba(113, 127, 183,1);
   padding: 20px;
   border-radius: 8px;
 }
@@ -431,13 +433,13 @@ footer .container .social-media-icons li a i {
 .timeline-content p {
   font-size: 14px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.726);
+  /* color: rgba(255, 255, 255, 0.726); */
 }
 .timeline-content span {
   font-size: 14px !important;
   /* font-weight: 500; */
   /* color: ; */
-  color: rgba(255, 255, 255, 0.726);
+  /* color: rgba(255, 255, 255, 0.726); */
 }
 .timeline-content h6 {
   font-weight: 400;
