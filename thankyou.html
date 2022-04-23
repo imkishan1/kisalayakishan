@@ -68,14 +68,41 @@
             color: #fff;  
             margin-top: 16px;
             transition: 0.3s all ease-in-out;
+            width: 150px;
+            position: relative;
+            height: 45px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
         }
         a:hover{
-            transform: translateY(-2px);
+            /* transform: translateY(-2px); */
+            box-shadow: 0 0 4px rgba(0,0,0,0.2);
+          
+        }
+        a:hover .span{
+            left: 40%;
         }
         p{
             /* font-size: 40px;
             font-size: 1.5vw; */
             text-transform: capitalize;
+        }
+        .span{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 210px;
+            position: absolute;
+            left: -50%;
+            /* height: 45px; */
+            transition: 0.2s all ease-in-out;
+            /* border: 1px solid red; */
+        }
+        .span i {
+            font-size: 26px;
         }
         @media screen and (max-width:450px) {
 
@@ -84,7 +111,7 @@
             line-height: 4rem;
             margin-bottom: 16px;
    
-        }
+            }
             
         }
     </style>
@@ -94,7 +121,7 @@
         <i class='bx bx-check-circle tick'></i>
         <h1>Thank you!</h1>
         <p>Your response has been received successfully!</p>
-        <a href="index.html">Take me Home</a>
+        <a href="index.html"><div class="span"><i class='bx bx-home-heart'></i><p>Take me Home</p></div> </a>
     </div>
 </body>
 </html>
